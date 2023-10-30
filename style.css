@@ -1,4 +1,101 @@
+/* General CSS Starts */
+
 body {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
+    padding: 0;
+    margin: 0;
 }
+
+/* General CSS Ends */
+
+/* Nav Bar CSS Starts */
+
+.header {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-bar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 15px;
+}
+
+.nav-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list ul>li {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nav-bar ul li>a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+#nav-follow-link {
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+    border-radius: 8px;
+}
+
+#nav-follow-link>i {
+    margin-left: 10px;
+}
+
+/* Nav Bar CSS Ends */
+
+/* ===================================================== */
+/* ---------------------------------------- */
+/* Media Query for Responsive View */
+
+/* Responsive CSS for Mobile View */
+
+@media screen and (max-width:576px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nav-bar ul>li {
+        margin: 0 auto;
+    }
+}
+
+/* Responsive CSS for Mobile View */
+
+/* ---------------------------------------- */
+
+/* Responsive CSS for Tablet View */
+
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+}
+
+/* Responsive CSS for Tablet View */
+
+/* Media Query for Responsive View */
