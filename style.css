@@ -35,6 +35,10 @@ body {
     margin-left: 15px;
 }
 
+#title-end {
+    color: red;
+}
+
 .nav-list ul {
     display: flex;
     align-items: center;
